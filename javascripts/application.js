@@ -9,6 +9,10 @@ jQuery(function(){
 		return false;
 	});	
 
+	$('#add').click().click();
+
+	$('#tasks ul').sortable({handle:"handle"}).disableSelection();	
+
 	$('input[type="text"]:first').focus();
 		
 });
